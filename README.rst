@@ -25,7 +25,9 @@ Quick Start
 
 #. **Download and extract**: Get the `latest ddev project files from
    Github <https://github.com/gstypo3/render-documentation/releases/latest>`_
-   and extract the archive to an empty folder of your choice.
+   and extract the archive to an empty folder of your choice. (`Download from
+   master <https://github.com/gstypo3/render-documentation/archive/master.zip>`_
+   until first release)
 #. **Copy the Documentation**: Copy an existing **Documentation** folder into
    the previously created folder.
 #. **Render the Documentation**: Open a shell and run ``ddev t3rd makehtml``

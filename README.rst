@@ -11,7 +11,7 @@ Prerequisites
 =============
 
 As we are using a very common toolset for TYPO3 development, most people should
-already fulfill this prerequisites and just can head to :ref:`Quick Start`.
+already fulfill this prerequisites and just can head to :ref:`quick-start`.
 
 #. **Check System Requirements**: We support recent versions of macOS, Windows
    10, and Linux distributions that will run Docker (ddev requires Docker and
@@ -22,6 +22,8 @@ already fulfill this prerequisites and just can head to :ref:`Quick Start`.
 #. **Install ddev and prerequisites**: Follow the instructions of the
    `ddev documentation <https://ddev.readthedocs.io/en/stable/#installation>`_.
 
+
+.. _quick-start:
 
 Quick Start
 ===========

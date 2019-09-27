@@ -10,6 +10,9 @@ for rendering TYPO3 documentation using `ddev <https://github.com/drud/ddev/#dde
 Prerequisites
 =============
 
+As we are using a very common toolset for TYPO3 development, most people should
+already fulfill this prerequisites and just can head to :ref:`Quick Start`.
+
 #. **Check System Requirements**: We support recent versions of macOS, Windows
    10, and Linux distributions that will run Docker (ddev requires Docker and
    docker-compose).

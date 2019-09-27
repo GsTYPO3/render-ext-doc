@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  t3rd:
+    volumes:
+      - ${T3DOCS_USERHOME:-../.build/tmp-GENERATED-userhome}:/ALL/userhome
+      - ${T3DOCS_MAKEDIR:-../.build/tmp-GENERATED-Makedir}:/ALL/Makedir
+      - ${T3DOCS_MENU:-../.build/tmp-GENERATED-Menu}:/ALL/Menu
+      - ${T3DOCS_VENV:-../.build/tmp-GENERATED-venv}:/ALL/venv
+      - ${T3DOCS_TOOLCHAINS:-../.build/tmp-GENERATED-Toolchains}:/ALL/Toolchains

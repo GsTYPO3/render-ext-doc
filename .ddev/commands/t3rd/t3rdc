@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: TYPO3 Render documentation
+## Usage: t3rdc [flags] [args]
+## Example: "ddev t3rdc makeall" or "ddev t3rdc makehtml"
+
+/ALL/Menu/mainmenu.sh $@

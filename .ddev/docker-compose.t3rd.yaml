@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  t3rd:
+    container_name: ddev-${DDEV_SITENAME}-t3rd
+    image: t3docs/render-documentation:latest
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+    volumes:
+      - ${T3DOCS_PROJECT:-..}:/PROJECT:ro
+      - ${T3DOCS_RESULT:-../.build}/Documentation-GENERATED-temp:/RESULT
+      - ${T3DOCS_TMP:-../.build}/tmp-GENERATED-temp:/tmp
+      # ddev custom command support
+      - .:/mnt/ddev_config
+    command: bashcmd sleep infinity

@@ -1,0 +1,3 @@
+# Enforce checkout with linux lf consistent over all plattforms
+commands/*/* text eol=lf
+*.yaml text eol=lf

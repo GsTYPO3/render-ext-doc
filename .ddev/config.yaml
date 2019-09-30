@@ -1,7 +1,7 @@
 APIVersion: v1.11.0
 name: t3docs
 type: php
-docroot: .build/Documentation-GENERATED-temp/Result/project/0.0.0
+docroot: Documentation-GENERATED-temp/Result/project/0.0.0
 php_version: "7.2"
 webserver_type: nginx-fpm
 router_http_port: "80"

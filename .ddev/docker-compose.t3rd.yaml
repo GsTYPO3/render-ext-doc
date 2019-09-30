@@ -8,8 +8,8 @@ services:
       com.ddev.site-name: ${DDEV_SITENAME}
     volumes:
       - ${T3DOCS_PROJECT:-..}:/PROJECT:ro
-      - ${T3DOCS_RESULT:-../.build}/Documentation-GENERATED-temp:/RESULT
-      - ${T3DOCS_TMP:-../.build}/tmp-GENERATED-temp:/tmp
+      - ${T3DOCS_RESULT:-..}/Documentation-GENERATED-temp:/RESULT
+      - ${T3DOCS_TMP:-..}/tmp-GENERATED-temp:/tmp
       # ddev custom command support
       - .:/mnt/ddev_config
     command: bashcmd sleep infinity
